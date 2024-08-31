@@ -1,0 +1,29 @@
+@import url(../css/home.css);
+
+.titulo{
+    font-size: 50px;
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+#divform_fundo{
+    margin: 2% 50% 5% 5%;
+    position: absolute;
+}
+
+#divform_fundo.ListaUsuarios{
+    margin: 2% 5% 5% 50%;
+    position: absolute;
+}
+
+#divform_frente.ListaUsuarios{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    overflow-y: scroll;
+    height: 200px;
+}
